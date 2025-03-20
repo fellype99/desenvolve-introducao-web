@@ -1,22 +1,16 @@
-a {
-    color:red;
-}
-a:hover{
-    color: lime;
-}
+html { font-size: 20px; }
 
-p{
-    font-family: Arial;
+html h1 { font-size: 2rem; }
+
+h1 > .principal { font-size: 1.4em; }
+
+html .secundario { font-size: 1.4rem; }
+.cor {
+    background: rgb(219, 78, 68);
 }
-h1 + p {
-    font-weight: bold;
+.cor-clara {
+background: rgb(252, 90, 78);
 }
-.destaque {
-    font-family: arial;
-}
-p.destaque {
-font-weight: bold;
-}
-strong.destaque {
-    color: red;
+.cor-escura {
+    background: rgb(186, 66, 58);
 }
